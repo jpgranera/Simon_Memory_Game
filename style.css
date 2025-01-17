@@ -1,0 +1,138 @@
+  .body {
+    background-color: hsl(0, 0%, 13%);
+    user-select: none;
+  }
+
+  .game-over {
+    background-image: none;
+    background-color: hsl(0, 23%, 32%);
+  }
+
+  button {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 10%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+  }
+
+  #btnStart {
+    width: 100px;
+    height: 50px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: white; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 3rem;
+    font-family: "Roboto", serif;
+    letter-spacing: 1px;
+  }
+
+  #btnStart:hover {
+    transform: scale(0.96);
+  }
+  
+  .roboto-style {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    color: aliceblue;
+    text-align: center;
+    user-select: none;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+  }
+
+
+  .containers {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+
+  #green {
+    background-color: hsl(82, 41%, 47%);
+  }
+  
+  #green:hover {
+    background-color: hsl(82, 41%, 57%);
+    transform: scale(1.02);
+  }
+
+  #green:active {
+    transform: scale(0.96);
+    opacity: 0.5;
+  }
+
+  #yellow {
+    background-color: hsl(56, 100%, 73%);
+  }
+
+  #yellow:hover {
+    background-color: hsl(56, 100%, 83%);
+    transform: scale(1.02);
+  }
+
+  #yellow:active {
+    transform: scale(0.96);
+    opacity: 0.5;
+  }
+
+  #blue {
+    background-color: hsl(185, 37%, 48%);
+  }
+
+  #blue:hover {
+    background-color: hsl(185, 37%, 58%);
+    transform: scale(1.02);
+  }
+
+  #blue:active {
+    transform: scale(0.96);
+    opacity: 0.5;
+  }
+
+  #red {
+    background-color: hsl(10, 81%, 58%);
+  }
+
+  #red:hover {
+    transform: scale(1.02);
+    background-color: hsl(10, 81%, 62%);
+  }
+
+  #red:active {
+    transform: scale(0.96);
+    opacity: 0.5;
+  }
+
+  .pressed {
+    transform: scale(0.96);
+    opacity: 0.5;
+  }
+
+  .footer {
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+    font-family: "Roboto", serif;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: inherit; /* Ensure the link inherits the color from the parent */
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+  
