@@ -8,7 +8,7 @@
     background-color: hsl(0, 23%, 32%);
   }
 
-  button {
+  .btn {
     height: 12rem;
     width: 12rem;
     border-radius: 10%;
@@ -130,9 +130,10 @@
 .footer-link {
     text-decoration: none;
     color: inherit; /* Ensure the link inherits the color from the parent */
+    transition: font-size 0.3s ease;
 }
 
 .footer-link:hover {
-    text-decoration: underline;
+  font-size: 1.1rem;
 }
   

@@ -36,7 +36,7 @@ document.querySelectorAll(".btn").forEach(button => {
 
 //Play the sound
 function playSound (color) {
-    let soundEffect = new Audio("./sounds/" + color + ".mp3");
+    let soundEffect = new Audio("./sounds/" + color + ".MP3");
     soundEffect.play();
 }
 
